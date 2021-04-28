@@ -55,7 +55,7 @@ var options = {
   "method": "POST",
   "hostname": "dc311-api.herokuapp.com",
   "port": null,
-  "path": `/v2/requests.json?service_code=S0276&address_string=${SCAddress}&last_name=${phone}&first_name=Amazon-Connect&phone=${phone}&attribute%5BWHISPAMN%5D%5B%5D=${meterId}&attribute%5BWHISDORN%5D%5B%5D=${TrblDesc}&api_key=a76d26dce42fd92f89c1bca3eaa91323f255411113230783f63ce63e8e6357f0&jurisdiction_id=dc.gov`,
+  "path": `/v2/requests.json?service_code=S0276&address_string=${SCAddress}&last_name=${phone}&first_name=Amazon-Connect&phone=${phone}&attribute%5BWHISPAMN%5D%5B%5D=${meterId}&attribute%5BWHISDORN%5D%5B%5D=${TrblDesc}&api_key=<APIKey>&jurisdiction_id=dc.gov`,
   "headers": {
     "content-type": "application/json",
     "content-length": "0"
